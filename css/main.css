@@ -1,0 +1,16 @@
+/** This class will hide all the body by default **/
+#accordion .acc-body{
+    display : none;
+    padding : 10px;
+ }
+ /** This class will show the body if it has "active" parent class. "active" class will be added to panel div **/
+ #accordion .active .acc-body {
+    display : block;
+ }
+ #accordion .panel{
+    border : solid 1px rgb(48, 16, 233);
+    background-color: rgb(245, 211, 61);
+    margin:5px;
+    padding : 5px;
+    border-radius : 2px;
+  }
