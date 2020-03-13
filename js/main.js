@@ -24,5 +24,9 @@ function initAccordion(accordionElem) {
 }
 initAccordion(document.getElementById("accordion"));
 
-var str = "";
-var n = str.indexOf("@");
+
+if (textInput.indexOf('@') > 0){
+ 
+
+
+}
