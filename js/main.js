@@ -24,5 +24,5 @@ function initAccordion(accordionElem) {
 }
 initAccordion(document.getElementById("accordion"));
 
-var str = "cahillmn@aol.com";
+var str = "";
 var n = str.indexOf("@");
