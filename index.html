@@ -9,11 +9,12 @@
   <script src="js/main.js" defer></script>
 </head>
 
+<div id="wrapper">
 <body>
   <center><img src="images/black-and-white-animal-dog.jpg"></center>
   <center>
-    <font size="26" <p>AKC Dog Groups</p>
-    </font>
+     <p>AKC Dog Groups</p>
+    
   </center>
   <div id="accordion">
     <div class="panel">
@@ -84,25 +85,30 @@
   
     <h5><strong>Enter your email address here:</strong></h5>
     <div class="simple-subscription-form"> 
-      <form name="form1" action="#">
+      <!-- <form name="form1" action="#"> -->
         <span class="input-group-label">
         </span>
 
         <i class="fa fa-envelope fa-2x"></i>
 
-        <input type='text' name='text1' />
+        <!-- <input type='text' name='text1' /> -->
 
-        <br>
-        <center>
+        
+        <div class="button">
           <input id="email">
-        <br class="submit"><input type="submit" name="submit" value="Submit"
-          onclick="ValidateEmail(document.form1.text1)" /></br>
+        <input type="submit" name="submit" value="Submit"
+          onclick="ValidateEmail(document.form1.text1)" >
         <td></td>
         &nbsp;
+      </div>
 
-      </center>
+      
+
+      
 
       </form>
+
+    </div>
     
 
     <!-- </div> -->
@@ -114,8 +120,10 @@
 <footer class="py-5 bg-dark">
   <div class="container">
     <div class="footer-flex">
-      <p class="footer-item-flex text-white">Text was taken from www.akc.org</p>
-      <p class="footer-item-flex text-white">Copyright &copy; Meghan Cahill 2020</p>
+      <ul>
+      <li class="footer-item-flex text-white">Text was taken from www.akc.org</li>
+      <li class="footer-item-flex text-white">Copyright &copy; Meghan Cahill 2020</li>
+    </ul>
     </div>
   </div>
   <!-- /.container -->

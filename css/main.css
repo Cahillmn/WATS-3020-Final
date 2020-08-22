@@ -15,12 +15,37 @@
     border-radius : 2px;
   }
 
+  #wrapper {
+
+   width:940px;
+     margin: 20px auto;
+ }
+
+ p {
+   font-size: 2.5em;
+}
+
   h5 {
      text-align: center;
   }
 
-  
-
-  .submit {
+  .button {
       text-align: center;
+      margin-top: 10px;
   }
+
+
+  footer li {
+     float: left;
+     list-style-type:none;
+     margin-right: 30px;
+     
+  }
+
+  footer {
+   border-top:1px navy dotted;
+   height:50px;
+   clear:both;
+   line-height: 50px;
+   margin-top: 20px;
+}
